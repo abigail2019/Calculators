@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Calculator04\Calculator04.csproj" />
+    <ProjectReference Include="..\StaticMean\StaticMean.csproj" />
+    <ProjectReference Include="..\StatOperations\StatOperations.csproj" />
+  </ItemGroup>
+
+</Project>
