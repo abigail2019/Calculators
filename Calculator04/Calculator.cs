@@ -8,7 +8,7 @@ using Square1;
 using SquareRoot;
 using Subtract;
 
-namespace Calculator
+namespace Calculator04
 {
     public interface ICalculator
     {
