@@ -1,10 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Calculator;
+using Calculator04;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Calculator.Tests
+namespace Calculator04.Tests
 {
     [TestClass()]
     public class CalculatorTests
