@@ -9,7 +9,7 @@ namespace StatOperations
         {
 
             var sum = Addition.Sum(array);
-            var valueCount = Helpers.Array.Length(array);
+            var valueCount = Helpers.Array.length(array);
             dynamic results = Division.Divsion(sum, valueCount);
             //result = Helpers.Rounding.RoundOffTwoPlaces(results);
             return results;
@@ -17,7 +17,7 @@ namespace StatOperations
         public static dynamic Variance(dynamic array)
         {
             //var sum = Addition.Sum(array);
-            var valueCount = Helpers.Array.Length(array);
+            var valueCount = Helpers.Array.length(array);
             dynamic a = StatOperations.Mean(array);
             dynamic c = array[0];
 
