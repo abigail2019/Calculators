@@ -23,13 +23,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operation", "..\Calculator\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator04Tests1", "Calculator04Tests1\Calculator04Tests1.csproj", "{61A213B4-224B-4938-A647-93BF27428694}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticsCalculator", "StatisticsCalculator\StatisticsCalculator.csproj", "{88C419FB-3788-43CD-9DB9-19489A0C2310}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticsCalculator", "StatisticsCalculator\StatisticsCalculator.csproj", "{88C419FB-3788-43CD-9DB9-19489A0C2310}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatOperations", "StatOperations\StatOperations.csproj", "{CF8850B7-F4E5-4B19-8B5A-4924926AB17A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatOperations", "StatOperations\StatOperations.csproj", "{CF8850B7-F4E5-4B19-8B5A-4924926AB17A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{F1D3AAE7-E71E-445E-AEB5-4FCEC304AF6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Helpers", "Helpers\Helpers.csproj", "{F1D3AAE7-E71E-445E-AEB5-4FCEC304AF6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticMean", "StaticMean\StaticMean.csproj", "{0A91B70E-12BB-4039-948F-3392B74FB303}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticMean", "StaticMean\StaticMean.csproj", "{0A91B70E-12BB-4039-948F-3392B74FB303}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticsCalculatorTests1", "StatisticsCalculatorTests1\StatisticsCalculatorTests1.csproj", "{19909797-254B-4DE1-9103-10A5EFF84234}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variances", "Variances\Variances.csproj", "{43B85B90-6FA5-48C1-AFD1-377E531FAFDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardDeviation", "StandardDeviation\StandardDeviation.csproj", "{A4B75409-44BA-4901-AFA7-147C45CAA5D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +99,18 @@ Global
 		{0A91B70E-12BB-4039-948F-3392B74FB303}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A91B70E-12BB-4039-948F-3392B74FB303}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A91B70E-12BB-4039-948F-3392B74FB303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19909797-254B-4DE1-9103-10A5EFF84234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19909797-254B-4DE1-9103-10A5EFF84234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19909797-254B-4DE1-9103-10A5EFF84234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19909797-254B-4DE1-9103-10A5EFF84234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B85B90-6FA5-48C1-AFD1-377E531FAFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B85B90-6FA5-48C1-AFD1-377E531FAFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B85B90-6FA5-48C1-AFD1-377E531FAFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B85B90-6FA5-48C1-AFD1-377E531FAFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B75409-44BA-4901-AFA7-147C45CAA5D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B75409-44BA-4901-AFA7-147C45CAA5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B75409-44BA-4901-AFA7-147C45CAA5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B75409-44BA-4901-AFA7-147C45CAA5D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
