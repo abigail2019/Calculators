@@ -4,9 +4,13 @@ namespace Helpers
 {
     public class Array
     {
-        public static int length()
+        public static int Length(int[] array)
         {
-            return Array.length();
+            return array.Length;
         }
+        //public static int Length(double[] array)
+        //{
+        //    return array.Length;
+        //}
     }
 }
