@@ -28,13 +28,13 @@ namespace Calculator04
     public class Calculator : ICalculator, ISquareRooted, IDiving, ISum, ICubed1, IMultiplying, ISquared, ISubtractby
     {
         public dynamic result;
-        Dividing div = new Dividing(); //div is a construction //Dividing is a class name
-        Sum add = new Sum();
-        Cubed1 cub = new Cubed1();
-        Multiplying mul = new Multiplying();
-        Squared1 square = new Squared1();
-        SquareRooted sr = new SquareRooted();
-        Subtractby sub = new Subtractby();
+       private readonly Dividing div = new Dividing(); //div is a construction //Dividing is a class name
+        private readonly Sum add = new Sum();
+        private readonly Cubed1 cub = new Cubed1();
+        private readonly Multiplying mul = new Multiplying();
+        private readonly Squared1 square = new Squared1();
+        private readonly SquareRooted sr = new SquareRooted();
+        private readonly Subtractby sub = new Subtractby();
         public dynamic Add(dynamic a, dynamic b)
         {
             result = add.Add(a, b); //add is a construction//Add is a function Name

@@ -10,7 +10,7 @@ namespace StatisticsCalculator
         public dynamic Mean(dynamic values)
         {
             return mean.Mean(values);
-    }
+        }
 
     }
 }
